@@ -1,0 +1,22 @@
+PODS:
+  - LinkDetect (0.1.0)
+  - Nimble (3.2.0)
+  - Quick (0.9.3)
+
+DEPENDENCIES:
+  - LinkDetect (from `../`)
+  - Nimble (~> 3.0)
+  - Quick (~> 0.8)
+
+EXTERNAL SOURCES:
+  LinkDetect:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LinkDetect: 60901d7ad1515496af5396af50aee073c68affc2
+  Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
+  Quick: 13a2a2b19a5d8e3ed4fd0c36ee46597fd77ebf71
+
+PODFILE CHECKSUM: a39ec70c2d13cac8aacc5174a3965828ab449616
+
+COCOAPODS: 1.0.1

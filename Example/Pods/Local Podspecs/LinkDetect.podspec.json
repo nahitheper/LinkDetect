@@ -1,0 +1,22 @@
+{
+  "name": "LinkDetect",
+  "version": "0.1.0",
+  "summary": "A short description of LinkDetect.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/LinkDetect",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Nahit Rüştü HEPER": "nahitheper@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/LinkDetect.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LinkDetect/Classes/**/*"
+}
