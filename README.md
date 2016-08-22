@@ -9,8 +9,17 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+```swift
+let text = "http://google.com bla bla https://twitter.com" 
+let links = text.extractLink()
+for link in links {
+print(link)
+}
 
+if text.containsLink(){
+print("Text contains link.")
+}
+```
 ## Installation
 
 LinkDetect is available through [CocoaPods](http://cocoapods.org). To install

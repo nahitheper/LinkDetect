@@ -7,12 +7,15 @@
 //
 
 import UIKit
-
+import LinkDetect
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let text = "bla bla https://google.com http://facebook.com"
+        print(text.extractLink())
     }
 
     override func didReceiveMemoryWarning() {
